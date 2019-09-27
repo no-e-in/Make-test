@@ -18,8 +18,7 @@ make-test/test-div/assert-div "test2" {
 add 1 3 :: 4 
 /
 
-add 4 5 :: 8
-/
+add 4 5 :: 8/
 remove-each x [1 2 3] [if x > 2 [true]] :: [1 2] 
 /
 foreach
