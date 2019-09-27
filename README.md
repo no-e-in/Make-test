@@ -1,5 +1,5 @@
 # Make-test
-A simple program to create tests in Red.
+A simple program to create tests in Red.   
 Examples:
 ```
 make-test "test1" {
@@ -11,7 +11,9 @@ add 8 9 = 11}
 Test name: test1
 Bad Tests: 1 / 2
 2) add 8 9 = 11
+```
 
+```
 make-test/test-div/assert-div "test2" {
 add 1 3 :: 4 
 /
