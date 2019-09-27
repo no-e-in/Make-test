@@ -43,7 +43,7 @@ make-test: function [
     foreach n negative-pos [print rejoin [n ")" space list-print/:n]]
 ]
 
-;comment [
+comment [
 make-test "test1" {
 add 7 3 = 10 
 --
@@ -63,4 +63,4 @@ x
 [x] :: 6
 /
 add 22 56 :: 15} "/" "::"
-;]
+]
